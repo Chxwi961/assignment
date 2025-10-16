@@ -10,6 +10,7 @@
     background: #1F2937;
     color: white;
     margin: 0px;
+    height: 500px;
 }
 
 .header .hero {
@@ -68,4 +69,41 @@
     border: none;
     justify-content: center;
     align-items: center;
+}
+
+.main {
+    padding: 25px;
+    margin: 25px;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.main .boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main .boxes div {
+    margin-top: 25px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+}
+
+.main .text {
+    display: flex;
+    margin-top: 5px;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.main .text div {
+    color: gray;
+    width: 140px;
+    text-align: center;
 }
