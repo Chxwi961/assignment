@@ -172,3 +172,13 @@ body {
     padding: 10px;
     background-color: rgb(100,100,255);
 }
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
